@@ -75,7 +75,7 @@ public class HotelSearchFragment extends Fragment{
                     Bundle bundle = new Bundle();
                     bundle.putString("checkInDate", checkInDate);
                     bundle.putString("checkOutDate", checkOutDate);
-                    bundle.putString("numberOfGuests", numberOfGuestsStr); // Changed to int to match the data type
+                    bundle.putString("numberOfGuests", numberOfGuestsStr);
                     bundle.putString("guestName", guestName);
 
                     // Create a new instance of HotelsListFragment and set its arguments
